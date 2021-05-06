@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- HTML <!DOCTYPE> Declaration -->
+<html> <!-- the root of an HTML document -->
+
+<head>
+    <link rel="stylesheet" href="./page.css"> <!-- External CSS -->
+</head>
+
+<style> /* Internal CSS */
+    div.checkbox {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+</style>
+
+<body> <!-- the body of an HTML document -->
+    <h3>Register</h3>
+    <br>
+    <div>
+        <div class="field">
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+        </div>
+        <br>
+        <div class="field">
+            <label for="password">Password:</label>
+            <input type="text" id="password">
+        </div>
+    </div>
+    <br>
+    <div style="width:250px"> <!-- Inline CSS -->
+        <div class="checkbox">
+            <input type="radio" id="userAgreement">
+            <label for="userAgreement">I have read the user agreement.</label>
+        </div>
+        <br>
+        <div class="checkbox">
+            <input type="radio" id="emailNotification">
+            <label for="emailNotification">Send me email updates</label>
+        </div>
+    </div>
+    <br>
+    <button>Sign Up</button>
+</body>
+
+</html>
